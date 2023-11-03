@@ -1,0 +1,25 @@
+.mediaItemWrapper {
+    width: 100%;
+    aspect-ratio: 3/2;
+    overflow: auto;
+    resize: both;
+    max-width: 100%;
+    box-shadow: 1px 1px 2px 3px #807d78;
+    background-color: #cfcbc250;
+    margin: 5px auto 20px auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.mediaItem {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+    contain: content;
+    overflow: auto;
+    resize: both;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
